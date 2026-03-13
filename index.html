@@ -103,7 +103,7 @@
                     <h2 class="text-xs font-bold text-purple-500 uppercase tracking-[0.3em] mb-4">Archive Overview</h2>
                     <h3 class="text-lg font-bold mb-4 text-gray-800">アーカイブ概要</h3>
                     <p class="text-sm text-gray-600 leading-relaxed mb-8">
-                        本資料館は、世界の多様な音楽ジャンルをAI技術で多角的に解析。その歴史的背景、独特の旋律、そして聴き手の心に響く「感動の構造」を可視化・言語化した音声解説を収蔵しています。
+                        本資料館は、世界の多様な音楽ジャンルをAI技術で多角的に解析。その歴史的背景、独特の旋律、そして聴き手の心に響く「感動の構造」を可視化・言語化した解説を収蔵しています。
                     </p>
                 </section>
 
@@ -153,7 +153,7 @@
 
                 <div class="space-y-3" id="playlist">
                     <!-- 演歌 -->
-                    <div onclick="playTrack('./music-koumisen01.mp3', '高原列車 小海線', 'AI分析：昭和の高度経済成長期を背景に、旅情と希望を歌う。リズムの安定性が聴衆に安心感を与えます。', this)" 
+                    <div onclick="playTrack('./music-koumisen01.mp3', '高原列車 小海線', 'AI分析：高原を駆ける列車の軽快なリズムと、昭和の情緒溢れる旋律。旅への期待感を鮮やかに描き出します。', this)" 
                          class="group cursor-pointer p-4 rounded-xl border border-gray-100 hover:border-purple-200 hover:bg-white transition-all duration-300">
                         <div class="flex items-center justify-between">
                             <div class="flex items-center space-x-3">
@@ -169,7 +169,7 @@
                     </div>
 
                     <!-- 民謡 -->
-                    <div onclick="playTrack('./music-minyo01.mp3', '日本の風土を歌う', 'AI分析：各地域の生活に根ざしたリズムパターン。労働の効率化と精神的な結束を音楽で補完していた構造を解析。', this)" 
+                    <div onclick="playTrack('./music-mogami.mp3', '最上・船頭魂', 'AI分析：最上川の厳しい流れと共存する船頭の不屈の精神。力強い発声と伝統的なリズム構成を可視化。', this)" 
                          class="group cursor-pointer p-4 rounded-xl border border-gray-100 hover:border-purple-200 hover:bg-white transition-all duration-300">
                         <div class="flex items-center justify-between">
                             <div class="flex items-center space-x-3">
@@ -177,15 +177,15 @@
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path d="M18 3a1 1 0 00-1.196-.98l-10 2A1 1 0 006 5v9.114A4.369 4.369 0 005 14c-1.657 0-3 1.343-3 3s1.343 3 3 3 3-1.343 3-3V7.82l8-1.6V11.114A4.369 4.369 0 0015 11c-1.657 0-3 1.343-3 3s1.343 3 3 3 3-1.343 3-3V3z" /></svg>
                                 </div>
                                 <div>
-                                    <h4 class="text-sm font-bold text-gray-800">民謡の調べ</h4>
-                                    <p class="text-[10px] text-gray-400 uppercase mt-0.5">民謡 • music-minyo01</p>
+                                    <h4 class="text-sm font-bold text-gray-800">最上・船頭魂</h4>
+                                    <p class="text-[10px] text-gray-400 uppercase mt-0.5">民謡 • music-mogami</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <!-- ファド -->
-                    <div onclick="playTrack('./music-As Lágrimas do Tejo.mp3', 'As Lágrimas do Tejo', 'AI分析：テージョ川の涙。サウダージ（郷愁）を体現する深く震える歌声が、聴き手の魂を震わせます。', this)" 
+                    <div onclick="playTrack('./music-As Lágrimas do Tejo.mp3', 'As Lágrimas do Tejo', 'AI分析：宿命を感じさせる哀切な旋律。サウダージを呼び起こす歌声の周波数成分をAIが解析。', this)" 
                          class="group cursor-pointer p-4 rounded-xl border border-gray-100 hover:border-purple-200 hover:bg-white transition-all duration-300">
                         <div class="flex items-center justify-between">
                             <div class="flex items-center space-x-3">
@@ -201,7 +201,7 @@
                     </div>
 
                     <!-- シャンソン -->
-                    <div onclick="playTrack('./music-Paris, mon amour.mp3', 'Paris, mon amour', 'AI分析：パリ、わが愛。日常の機微を演劇的に歌い上げる語り口と、流麗な旋律の調和。', this)" 
+                    <div onclick="playTrack('./music-Paris, mon amour.mp3', 'Paris, mon amour', 'AI分析：パリの石畳を想起させるドラマチックな物語性。日常の愛おしさを表現する歌唱技法を抽出。', this)" 
                          class="group cursor-pointer p-4 rounded-xl border border-gray-100 hover:border-purple-200 hover:bg-white transition-all duration-300">
                         <div class="flex items-center justify-between">
                             <div class="flex items-center space-x-3">
@@ -217,7 +217,7 @@
                     </div>
 
                     <!-- ジャズ -->
-                    <div onclick="playTrack('./music-Melody of Dawn.mp3', 'Melody of Dawn', 'AI分析：夜明けの旋律。即興的な感性と複雑なコード進行が織りなす、洗練された自由の探求。', this)" 
+                    <div onclick="playTrack('./music-Melody of Dawn.mp3', 'Melody of Dawn', 'AI分析：夜明けの自由と孤独。即興演奏がもたらす予測不能な展開と洗練された音楽理論の融合。', this)" 
                          class="group cursor-pointer p-4 rounded-xl border border-gray-100 hover:border-purple-200 hover:bg-white transition-all duration-300">
                         <div class="flex items-center justify-between">
                             <div class="flex items-center space-x-3">
@@ -233,7 +233,7 @@
                     </div>
 
                     <!-- タンゴ -->
-                    <div onclick="playTrack('./music-Niebla Nocturna.mp3', 'Niebla Nocturna en Buenos Aires', 'AI分析：ブエノスアイレスの夜霧。情熱的なステップを想起させる鋭いリズムと、切ないメロディの交錯。', this)" 
+                    <div onclick="playTrack('./music-Niebla Nocturna.mp3', 'Niebla Nocturna en Buenos Aires', 'AI分析：夜霧のブエノスアイレス。鋭いアクセントとバンドネオンの咽び泣きが織りなす情熱。', this)" 
                          class="group cursor-pointer p-4 rounded-xl border border-gray-100 hover:border-purple-200 hover:bg-white transition-all duration-300">
                         <div class="flex items-center justify-between">
                             <div class="flex items-center space-x-3">
