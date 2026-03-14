@@ -103,7 +103,7 @@
                     <h2 class="text-xs font-bold text-purple-500 uppercase tracking-[0.3em] mb-4">Archive Overview</h2>
                     <h3 class="text-lg font-bold mb-4 text-gray-800">アーカイブ概要</h3>
                     <p class="text-sm text-gray-600 leading-relaxed mb-8">
-                        本資料館は、世界の多様な音楽ジャンルをAI技術で多角的に解析。その歴史的背景、独特の旋律、そして聴き手の心に響く「感動の構造」を可視化・言語化した解説を収蔵しています。
+                        本ベージは、世界の多様な音楽ジャンルをAI技術で多角的に解析、音楽の専門知識を持たない個人がAIを活用して作成した作品です。どうぞ気軽にお楽しみください。
                     </p>
                 </section>
 
@@ -124,6 +124,10 @@
                         <div class="p-4 bg-white/60 rounded-xl border border-gray-100">
                             <h4 class="text-sm font-bold text-purple-700 mb-2">ファド</h4>
                             <p class="text-[12px] text-gray-600 leading-relaxed">ポルトガルの運命。失ったものへの思慕や宿命を歌い上げる、哀愁漂う大衆歌謡です。</p>
+                        </div>
+                        <div class="p-4 bg-white/60 rounded-xl border border-gray-100">
+                            <h4 class="text-sm font-bold text-purple-700 mb-2">フラメンコ</h4>
+                            <p class="text-[12px] text-gray-600 leading-relaxed">情熱と魂の叫び。スペイン南部で培われた、鋭いリズムと深い感情がギターと歌、踊りによって昇華されます。</p>
                         </div>
                         <div class="p-4 bg-white/60 rounded-xl border border-gray-100">
                             <h4 class="text-sm font-bold text-purple-700 mb-2">シャンソン</h4>
@@ -153,7 +157,7 @@
 
                 <div class="space-y-3" id="playlist">
                     <!-- 演歌 -->
-                    <div onclick="playTrack('./music-koumisen01.mp3', '高原列車 小海線', 'AI分析：高原を駆ける列車の軽快なリズムと、昭和の情緒溢れる旋律。旅への期待感を鮮やかに描き出します。', this)" 
+                    <div onclick="playTrack('./music-minamijyuji.mp3', '南十字星ひとり旅', 'AI分析：異国の夜空を仰ぐ深い旅情と孤独。情緒的な旋律の中に潜む、切ない感情の揺らぎと祈りの響きを解析。', this)" 
                          class="group cursor-pointer p-4 rounded-xl border border-gray-100 hover:border-purple-200 hover:bg-white transition-all duration-300">
                         <div class="flex items-center justify-between">
                             <div class="flex items-center space-x-3">
@@ -161,8 +165,8 @@
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path d="M18 3a1 1 0 00-1.196-.98l-10 2A1 1 0 006 5v9.114A4.369 4.369 0 005 14c-1.657 0-3 1.343-3 3s1.343 3 3 3 3-1.343 3-3V7.82l8-1.6V11.114A4.369 4.369 0 0015 11c-1.657 0-3 1.343-3 3s1.343 3 3 3 3-1.343 3-3V3z" /></svg>
                                 </div>
                                 <div>
-                                    <h4 class="text-sm font-bold text-gray-800">高原列車 小海線</h4>
-                                    <p class="text-[10px] text-gray-400 uppercase mt-0.5">演歌 • music-koumisen01</p>
+                                    <h4 class="text-sm font-bold text-gray-800">南十字星ひとり旅</h4>
+                                    <p class="text-[10px] text-gray-400 uppercase mt-0.5">演歌 • music-minamijyuji</p>
                                 </div>
                             </div>
                         </div>
@@ -195,6 +199,22 @@
                                 <div>
                                     <h4 class="text-sm font-bold text-gray-800">As Lágrimas do Tejo</h4>
                                     <p class="text-[10px] text-gray-400 uppercase mt-0.5">ファド • music-As Lágrimas do Tejo</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- フラメンコ -->
+                    <div onclick="playTrack('./music-flamenco.mp3', 'Pasión del Sur', 'AI分析：スペイン南部の魂。鋭いギターのカッティングと、感情の昂ぶりをそのまま音にした歌唱様式。', this)" 
+                         class="group cursor-pointer p-4 rounded-xl border border-gray-100 hover:border-purple-200 hover:bg-white transition-all duration-300">
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center space-x-3">
+                                <div class="w-8 h-8 rounded-full bg-purple-50 flex items-center justify-center text-purple-500 group-hover:bg-purple-600 group-hover:text-white transition-colors">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path d="M18 3a1 1 0 00-1.196-.98l-10 2A1 1 0 006 5v9.114A4.369 4.369 0 005 14c-1.657 0-3 1.343-3 3s1.343 3 3 3 3-1.343 3-3V7.82l8-1.6V11.114A4.369 4.369 0 0015 11c-1.657 0-3 1.343-3 3s1.343 3 3 3 3-1.343 3-3V3z" /></svg>
+                                </div>
+                                <div>
+                                    <h4 class="text-sm font-bold text-gray-800">Pasión del Sur</h4>
+                                    <p class="text-[10px] text-gray-400 uppercase mt-0.5">フラメンコ • music-flamenco</p>
                                 </div>
                             </div>
                         </div>
@@ -264,9 +284,11 @@
             <!-- キュレーター紹介 -->
             <div class="glass-card rounded-3xl p-10 text-center mt-12 border border-gray-100">
                 <p class="text-[10px] text-gray-400 uppercase tracking-[0.4em] mb-6 font-bold">Authorized Curator</p>
+                
                 <div class="relative w-32 h-24 mx-auto mb-6 flex items-center justify-center overflow-hidden rounded-xl bg-gray-50 border border-gray-100 shadow-inner">
-                    <img src="./aikon-sita.png" alt="デジタル資料館" class="w-full h-full object-cover">
+                    <img id="curator-image" src="./aikon-sita1.png" alt="デジタル資料館" class="w-full h-full object-cover" onerror="this.onerror=null; this.parentNode.innerHTML='<svg class=\'w-12 h-12 text-gray-300\' fill=\'currentColor\' viewBox=\'0 0 24 24\'><path d=\'M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z\'/></svg>'">
                 </div>
+
                 <h4 class="text-xl font-bold text-gray-900 mb-1">中島 義健</h4>
                 <p class="text-sm text-purple-600 font-bold mb-4">AI音楽解析・文化アーカイブ担当</p>
                 <a href="mailto:yoshi0213@gmail.com" class="text-xs text-gray-400 font-mono bg-gray-50 py-2 rounded-lg inline-block px-4 hover:text-purple-600 hover:bg-purple-50 transition-all duration-300">
